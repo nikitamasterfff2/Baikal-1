@@ -1,0 +1,946 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn_up {
+    margin-top: 7%;
+    cursor: pointer;
+}
+
+.contacts_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.h__contact__footer {
+    margin-bottom: 20px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.adress_contacts_footer {
+    margin-bottom: 5px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.nav__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__nav {
+    margin-right: 30px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #686868;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button__nav {
+    margin-left: 20px;
+    padding: 8px 20px;
+    background: none;
+    border: 2px solid #2F70D9;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    cursor: pointer;
+}
+
+.illustration {
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_ullustration {
+    margin-top: 40px;
+}
+
+.button__illustration {
+    margin-top: 57px;
+    padding: 18px 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #D95845;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.len {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h__len {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.line__len {
+    position: absolute;
+    right: 72.5%;
+}
+
+.text__len {
+    width: 390px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.block__len {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line__blue {
+    position: absolute;
+    left: 0;
+}
+
+.hotel {
+    position: relative;
+    margin-top: 50px;
+}
+
+.h__hotel {
+    position: relative;
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.cards__hotel {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__hotel {
+    padding: 40px 31px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 295px;
+    border: 3px solid #2F70D9;
+    border-radius: 20px;
+}
+
+.h__card {
+    margin: 30px 0px;
+    font-family: 'Lora';
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.ul__card {
+    margin-left: 20px;
+}
+
+.li__card {
+    margin-bottom: 13px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.span__price {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #D95845;
+}
+
+.price {
+    margin-top: 17px;
+    text-align: center;
+}
+
+.text__price {
+    margin-bottom: 10px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.boy {
+    position: absolute;
+    top: 32%;
+}
+
+.girl {
+    position: absolute;
+    right: 0;
+    top: 32%;
+}
+
+.underline {
+    position: absolute;
+    right: 71%;
+}
+
+.cards__sugg div {
+    margin-bottom: 76px;
+    width: 33.3333%;
+    text-align: center;
+}
+
+.cards__sugg {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h__sugg {
+    margin-top: 150px;
+    position: relative;
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.offers__cards {
+    position: relative;
+}
+
+.line__title__offers {
+    position: absolute;
+    right: 65%;
+}
+
+.card_offers {
+    margin-bottom: 76px;
+    width: 33.3333%;
+    text-align: center;
+}
+
+.h__offer {
+    margin-top: 20px;
+    font-family: 'Lora';
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.text__offer {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.reviews {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h__reviews {
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.line__reviews {
+    position: absolute;
+    right: 70%;
+}
+
+.cards__reviews {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__reviews {
+    padding: 25px 25px;
+    text-align: center;
+    width: 285px;
+    height: 415px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.h__card__reviews {
+    margin-top: 30px;
+    font-family: 'Lora';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.text__rev {
+    margin-top: 29px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.period {
+    margin-top: 28px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.geolocation__contacts {
+    margin-bottom: 100px;
+}
+
+.map {
+    position: relative;
+    padding: 34px 75px;
+    background: url(/img/map.png);
+    width: 100%;
+    height: 503px;
+    border-radius: 20px;
+}
+
+.contact__maps {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 48px;
+    width: 355px;
+    height: 435px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.h__contact {
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.line__contacts {
+    position: absolute;
+    right: 69%;
+}
+
+.adress {
+    margin-top: 25px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #686868;
+}
+
+.street {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.tell_cont {
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.icon__viber__whatsapp {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 40px;
+    width: 100%;
+    height: 333px;
+    background-color: #282828;
+}
+
+.block_info_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.h__navigation__footer {
+    margin-bottom: 20px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.item__nav__footer {
+    margin-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fast_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.region_contact_footer {
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.tel__footer {
+    margin-bottom: 5px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.icon__viber__whatsapp__footer {
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.copyright {
+    margin-top: 17px;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.nav__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__nav {
+    margin-right: 30px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #686868;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button__nav {
+    margin-left: 20px;
+    padding: 8px 20px;
+    background: none;
+    border: 2px solid #2F70D9;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    cursor: pointer;
+}
+
+.illustration {
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_ullustration {
+    margin-top: 40px;
+}
+
+.button__illustration {
+    margin-top: 57px;
+    padding: 18px 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #D95845;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.len {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h__len {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.line__len {
+    position: absolute;
+    right: 72.5%;
+}
+
+.text__len {
+    width: 390px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.block__len {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line__blue {
+    position: absolute;
+    left: 0;
+}
+
+.hotel {
+    position: relative;
+    margin-top: 50px;
+}
+
+.h__hotel {
+    position: relative;
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.cards__hotel {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__hotel {
+    padding: 40px 31px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 295px;
+    border: 3px solid #2F70D9;
+    border-radius: 20px;
+}
+
+.h__card {
+    margin: 30px 0px;
+    font-family: 'Lora';
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.ul__card {
+    margin-left: 20px;
+}
+
+.li__card {
+    margin-bottom: 13px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.span__price {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #D95845;
+}
+
+.price {
+    margin-top: 17px;
+    text-align: center;
+}
+
+.text__price {
+    margin-bottom: 10px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.boy {
+    position: absolute;
+    top: 32%;
+}
+
+.girl {
+    position: absolute;
+    right: 0;
+    top: 32%;
+}
+
+.underline {
+    position: absolute;
+    right: 71%;
+}
+
+.cards__sugg div {
+    margin-bottom: 76px;
+    width: 33.3333%;
+    text-align: center;
+}
+
+.cards__sugg {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h__sugg {
+    margin-top: 150px;
+    position: relative;
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.offers__cards {
+    position: relative;
+}
+
+.line__title__offers {
+    position: absolute;
+    right: 65%;
+}
+
+.card_offers {
+    margin-bottom: 76px;
+    width: 33.3333%;
+    text-align: center;
+}
+
+.h__offer {
+    margin-top: 20px;
+    font-family: 'Lora';
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.text__offer {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.reviews {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.h__reviews {
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.line__reviews {
+    position: absolute;
+    right: 70%;
+}
+
+.cards__reviews {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__reviews {
+    padding: 25px 25px;
+    text-align: center;
+    width: 285px;
+    height: 415px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.h__card__reviews {
+    margin-top: 30px;
+    font-family: 'Lora';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.text__rev {
+    margin-top: 29px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.period {
+    margin-top: 28px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.geolocation__contacts {
+    margin-bottom: 100px;
+}
+
+.map {
+    position: relative;
+    padding: 34px 75px;
+    background: url(/img/map.png);
+    width: 100%;
+    height: 503px;
+    border-radius: 20px;
+}
+
+.contact__maps {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 48px;
+    width: 355px;
+    height: 435px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.h__contact {
+    font-family: 'Lora';
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.line__contacts {
+    position: absolute;
+    right: 69%;
+}
+
+.adress {
+    margin-top: 25px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #686868;
+}
+
+.street {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+.tell_cont {
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.icon__viber__whatsapp {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 40px;
+    width: 100%;
+    height: 333px;
+    background-color: #282828;
+}
+
+.block_info_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.h__navigation__footer {
+    margin-bottom: 20px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+.item__nav__footer {
+    margin-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fast_contact {
+    display: flex;
+    flex-direction: column;
+}
